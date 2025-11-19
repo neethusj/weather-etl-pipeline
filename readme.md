@@ -26,11 +26,11 @@ This project demonstrates a two‑stage ETL pipeline:
 2. Install dependencies
    pip install -r requirements.txt
 3. Create .env file
-   MYSQL_HOST=localhost
-   MYSQL_USER=your user name
-   MYSQL_PASSWORD=your password
-   MYSQL_DATABASE=weather_data
-   MONGO_URI=mongodb://localhost:27017/
+   - MYSQL_HOST=localhost
+   - MYSQL_USER=your user name
+   - MYSQL_PASSWORD=your password
+   - MYSQL_DATABASE=weather_data
+   - MONGO_URI=mongodb://localhost:27017/
 
 ## Usage
 
