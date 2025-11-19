@@ -7,16 +7,16 @@ This project demonstrates a two‑stage ETL pipeline:
 
 ## Folder Structure
 
--.env # Environment variables-Not to be pushed to GitHub
--config.py # Loads environment variables from .env
--mysql_connection.py # MySQL connection helper
--mongo_connection.py # MongoDB connection helper
--fetch_and_store.py # Fetches API data and stores in MongoDB
--mongodb_to_mysql.py # Transfers data from MongoDB to MySQL
--read_and_print.py # Utility to read and print MongoDB data
--requirements.txt # Dependencies
--.gitignore # files/folders that shouldnot be pushed to Github
--README.md # Project documentation
+- .env                      # Environment variables-Not to be pushed to GitHub
+- config.py                 # Loads environment variables from .env
+- mysql_connection.py       # MySQL connection helper
+- mongo_connection.py       # MongoDB connection helper
+- fetch_and_store.py        # Fetches API data and stores in MongoDB
+- mongodb_to_mysql.py       # Transfers data from MongoDB to MySQL
+- read_and_print.py         # Utility to read and print MongoDB data
+- requirements.txt          # Dependencies
+- .gitignore                # files/folders that shouldnot be pushed to Github
+- README.md                 # Project documentation
 
 ## SETUP
 
@@ -34,6 +34,6 @@ This project demonstrates a two‑stage ETL pipeline:
 
 ## Usage
 
-fetch_and_store.py:Fetch weather data and store in MongoDB
-read_and_print.py:Verify MongoDB data
-mongodb_to_mysql.py:Fetch data from MongoDB and store it in MySQL
+- fetch_and_store.py: Fetch weather data and store in MongoDB
+- read_and_print.py: Verify MongoDB data
+- mongodb_to_mysql.py: Fetch data from MongoDB and store it in MySQL
